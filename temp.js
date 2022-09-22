@@ -37,7 +37,7 @@ nav.innerHTML = `<div class="container-fluid">
         </nav>
       </div>
       <div class="row">
-        <img class="p-0" src="/assets/final.jpg" alt="" srcset="" />
+        <img class="p-0" src="/assets/bsh_banner.png" alt="BSH banner" srcset="" />
       </div>
     </div>
 
@@ -45,7 +45,7 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl bg-light container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+        <span class="navbar-brand mb-0 h1 ms-3">BSH Dbit</span>
         <button
           class="navbar-toggler me-2"
           type="button"
