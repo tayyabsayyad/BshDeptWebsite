@@ -1,4 +1,3 @@
-
 let nav = document.getElementById('navbar');
 
 
@@ -126,9 +125,9 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="/students/undergraduate-project.html">Under Graduate Projects</a>
+                    <a class="dropdown-item" href="/students/acheivements.html">Student Acheivements</a>
                   </li>
-                  <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/students/recognition.html">Scholarships</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -147,32 +146,6 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown text-center">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  PLACEMENT & INTERNSHIP
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/placement&internship/intenship.html"
-                      >Internship Record</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/placement&internship/placement.html"
-                      >Placement Record</a
-                    >
-                  </li>
                 </ul>
               </li>
             </ul>
