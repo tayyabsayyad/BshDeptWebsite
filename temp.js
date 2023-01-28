@@ -24,6 +24,9 @@ nav.innerHTML = `<div class="container-fluid">
                 <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link top-nav-text" href="https://workshop.opensourcetutorials.in/?redirect=0">Aspire</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
               <li class="nav-item">
@@ -89,7 +92,6 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                 </ul>
@@ -130,6 +132,23 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a class="dropdown-item" href="/students/scholarships.html">Scholarships</a></li>
                 </ul>
               </li>
+              <li class="nav-item dropdown text-center">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  EXAMINATION
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/examination/notice.html">Notice</a></li>
+                <li><a class="dropdown-item" href="/examination/exam-calendar.html">Exam Timetable</a>
+                <li><a class="dropdown-item" href="/examination/toppers.html">Toppers</a>
+                </li>
+                
+                </ul>
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"

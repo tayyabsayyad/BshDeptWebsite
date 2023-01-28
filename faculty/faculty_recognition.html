@@ -1,447 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="/style/main.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
-    <link rel="stylesheet" href="/style/nav.css" />
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>DBIT IT</title>
-    <script src="/temp.js" defer></script>
-  </head>
-  <body class="bg-color">
-    <div id="navbar"></div>
-    <main class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="row my-3 mx-4 py-3 bg-light">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide justify-content-center"
-            data-bs-ride="true"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="../assets/slideshow/pic1.jpg"
-                  class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                src="../assets/slideshow/pic2.jpg"
-                  class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                src="../assets/slideshow/pic3.jpg"
-                  class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden"></span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden"></span>
-            </button>
-          </div>
-        </div>
-        <div class="row col-lg-10 p-3 m-">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  <strong>Mumbai University Minor Research Grants</strong>
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <table class="table">
-                    <thead class="table-dark">
-                      <tr>
-                        <th scope="col">Academic Year</th>
-                        <th scope="col">Topic</th>
-                        <th scope="col">Principal Investigator/ CO-PI</th>
-                        <th scope="col">Project No.</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <tr>
-                          <td rowspan="2">2017-2018</td>
-                          <td rowspan="2">Community based DP for Mumbai</td>
-                          <td>Mr Tayyabali Sayyad (PI)</td>
-                          <td rowspan="2">-</td>
-                        </tr>
-                        <tr>
-                          <td>Mr Nilesh Ghavate (CO-PI)</td>
-                        </tr>
-                      </tr>
-                      <tr>
-                        <tr>
-                          <td rowspan="2">2016-2017</td>
-                          <td rowspan="2">Smart Fridge</td>
-                          <td>Mrs Janhavi Baikerikar (PI)</td>
-                          <td rowspan="2">455</td>
-                        </tr>
-                        <tr>
-                          <td>Mrs Sunantha Krishnan (CO-PI)</td>
-                        </tr>
-                      </tr>
-                      <tr>
-                        <tr>
-                          <td rowspan="2">2016-2017</td>
-                          <td rowspan="2">Search Engine Optimization</td>
-                          <td>Mrs Sunantha Krishnan (PI)</td>
-                          <td rowspan="2">456</td>
-                        </tr>
-                        <tr>
-                          <td>Mrs Vaishali Kavathekar (CO-PI)</td>
-                        </tr>
-                      </tr>
-                      <tr>
-                        <tr>
-                          <td rowspan="2">2016-2017</td>
-                          <td rowspan="2">Energy Motor</td>
-                          <td>Mrs Mahalaxmi Sridhar(PI)</td>
-                          <td rowspan="2">457</td>
-                        </tr>
-                        <tr>
-                          <td>Mrs Sushree Satapathy (CO-PI)</td>
-                        </tr>
-                      </tr>
-                      <tr>
-                        <tr>
-                          <td rowspan="2">2016-2017</td>
-                          <td rowspan="2">Machine Learning Approach To Protien Folding Recognition</td>
-                          <td>Mr Uday Naik (PI)</td>
-                          <td rowspan="2">458</td>
-                        </tr>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  <strong>Smart India Hackathon</strong>
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <table class="table">
-                        <thead class="table-dark">
-                          <div class="row justify-content-center text-center">
-                            <tr>
-                              <th class="text-center" colspan="2"><strong>2017-2018</strong></th>
-                            </tr>
-                          </div>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td ><strong>Awards</strong></td>
-                            <td >Persistent Innovation Award</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Team Name :</strong></td>
-                            <td >Irrartional Reals</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Problem Category :</strong></td>
-                            <td >Ministry (Government of Goa)</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Problem Statement :</strong></td>
-                            <td >Full Immunisation Coverage</td>
-                          </tr>
-                          <tr>
-                            <td rowspan="6"><strong>Name of students :</strong></td>
-                            <td>Tanvi Swant</td>
-                          </tr>
-                          <tr>
-                            <td>Aditya Hase</td>
-                          </tr>
-                          <tr>
-                            <td>Arnab Sanyal</td>
-                          </tr>
-                          <tr>
-                            <td>Shivam Mishra</td>
-                          </tr>
-                          <tr>
-                            <td>Omkar Kadam</td>
-                          </tr>
-                          <tr>
-                            <td>Premlata Pawar</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Mentor :</strong></td>
-                            <td>Mr Prasad Padalkar</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Venue :</strong></td>
-                            <td>Nagpur</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Winning Price :</strong></td>
-                            <td>&#8377;10,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="col-md-4">
-                      <table class="table ">
-                        <thead class="table-dark">
-                          <div class="row justify-content-center text-center">
-                            <tr>
-                              <th class="text-center" colspan="2"><strong>2017-2018</strong></th>
-                            </tr>
-                          </div>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td ><strong>Awards</strong></td>
-                            <td >Honorable Mention</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Team Name :</strong></td>
-                            <td >Ischyo</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Problem Category :</strong></td>
-                            <td >Ministry of Women and child Development</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Problem Statement :</strong></td>
-                            <td >C2C Crowd Sourcing Platform For Women Empowerment</td>
-                          </tr>
-                          <tr>
-                            <td rowspan="6"><strong>Name of students :</strong></td>
-                            <td>Meldon Dias</td>
-                          </tr>
-                          <tr>
-                            <td>Kevin Lobo</td>
-                          </tr>
-                          <tr>
-                            <td>Gyanendra Maurya</td>
-                          </tr>
-                          <tr>
-                            <td>Yash Agarwal</td>
-                          </tr>
-                          <tr>
-                            <td>Prerna Singh</td>
-                          </tr>
-                          <tr>
-                            <td>Renita Lobo</td>
-                          </tr>
-                          <tr>
-                            <td rowspan="2"><strong>Mentor :</strong></td>
-                            <td>Mr Tayyabali Sayyad</td>
-                          </tr>
-                          <tr>
-                            <td>Mr Diplav Dongre</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Venue :</strong></td>
-                            <td>Bhopal</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="col-md-4">
-                      <table class="table ">
-                        <thead class="table-dark">
-                          <div class="row justify-content-center text-center">
-                            <tr>
-                              <th class="text-center" colspan="2"><strong>2016-2017</strong></th>
-                            </tr>
-                          </div>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td ><strong>Awards</strong></td>
-                            <td >1st Runner Up</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Team Name :</strong></td>
-                            <td >DBIT Vikings</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Problem Category :</strong></td>
-                            <td >Environment Forest and Climate Change</td>
-                          </tr>
-                          <tr>
-                            <td ><strong>Problem Statement :</strong></td>
-                            <td >Evaluation of Health Hazards and Managementof Electronic Waste</td>
-                          </tr>
-                          <tr>
-                            <td rowspan="6"><strong>Name of students :</strong></td>
-                            <td>Deepesh Gupta</td>
-                          </tr>
-                          <tr>
-                            <td>Krupal Jadhav</td>
-                          </tr>
-                          <tr>
-                            <td>Manish Jain</td>
-                          </tr>
-                          <tr>
-                            <td>Deven Bhalerao</td>
-                          </tr>
-                          <tr>
-                            <td>Likitha Shetigar</td>
-                          </tr>
-                          <tr>
-                            <td>Atashi Khauta</td>
-                          </tr>
-                          <tr>
-                            <td rowspan="2"><strong>Mentor :</strong></td>
-                            <td>Mr Prasad Padalkar</td>
-                          </tr>
-                          <tr>
-                            <td>Mr Tayyabali Sayyad</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Venue :</strong></td>
-                            <td>Coimbatore</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Winning Price :</strong></td>
-                            <td>&#8377;75,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="academics.css">
+    <title>Recognition</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script defer src="nav.js"></script>
+</head>
+<body class="bg-color">
+        <div id="navbar"></div>
+        <main class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-8 p-0 justify-content-center">
+              <div class="row border rounded my-3 mx-4 py-3 bg-light">
+                <h2 class="text-center">Recognitions</h2>
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Sr.no</th>
+                      <th scope="col">Faculty</th>
+                      <th scope="col">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="bg-white">
+                      <th scope="row ">1</th>
+                      <td>Ms. Jyoti Nimbhorkar</td>
+                      <td>
+                        <a href="NCQM.pdf">view</a>
+                      </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-        </div>
+        </main>
+
+
+  
+
+  <div class="container pt-5">
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md d-flex align-items-center">
+        <span class="text-muted"
+          >&copy; Don Bosco Institute Of Technology Designed & Maintained by
+          Website team</span
+        >
       </div>
-    </main>
 
-    <div class="container pt-5">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md d-flex align-items-center">
-          <span class="text-muted"
-            >&copy; Don Bosco Institute Of Technology Designed & Maintained by
-            Website team</span
-          >
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-facebook footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-youtube footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-instagram footer-icon"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="nav.js"></script>
-  </body>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#"
+            ><i class="bi bi-facebook footer-icon"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"
+            ><i class="bi bi-youtube footer-icon"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"
+            ><i class="bi bi-instagram footer-icon"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script src="/temp.js"></script>
+</body>
 </html>
