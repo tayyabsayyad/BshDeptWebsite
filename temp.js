@@ -7,7 +7,7 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link top-nav-text" aria-current="page" href="#">DBIT Home</a>
+                <a class="nav-link top-nav-text" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
@@ -142,7 +142,8 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/events.html">General Events</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/generalevents.html">General Events</a>
+                <li><a class="dropdown-item" href="/cocurricular/technicalevents.html">Technical Events</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
