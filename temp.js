@@ -44,7 +44,7 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl bg-light container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">BSH Dbit</span>
+        <span class="navbar-brand mb-0 h1 ms-3">BSH DBIT</span>
         <button
           class="navbar-toggler me-2"
           type="button"
@@ -127,7 +127,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a class="dropdown-item" href="/students/acheivements.html">Student Acheivements</a>
                   </li>
-                  <li><a class="dropdown-item" href="/students/recognition.html">Scholarships</a></li>
+                  <li><a class="dropdown-item" href="/students/scholarships.html">Scholarships</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
