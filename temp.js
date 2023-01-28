@@ -142,7 +142,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/events.html">General Events</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
