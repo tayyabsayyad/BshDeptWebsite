@@ -39,7 +39,7 @@ nav.innerHTML = `<div class="container-fluid">
         </nav>
       </div>
       <div class="row">
-        <img class="p-0" src="/assets/bsh_banner.png" alt="BSH banner" srcset="" />
+        <img class="p-0" src="./assets/webp/bsh_banner.webp" alt="BSH banner" srcset="" />
       </div>
     </div>
 
