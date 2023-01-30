@@ -11,14 +11,10 @@ nav.innerHTML = `<div class="container-fluid">
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
-                  >Parent Login</a
-                >
+                  >Parent Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="https://alumni.dbit.in/">Alumni</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://moodle.dbit.in/">Moodle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
@@ -29,17 +25,12 @@ nav.innerHTML = `<div class="container-fluid">
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://dbcldrive.dbit.in/"
-                  >DBCL Drive</a
-                >
-              </li>
             </ul>
           </div>
         </nav>
       </div>
       <div class="row">
-        <img class="p-0" src="./assets/webp/bsh_banner.webp" alt="BSH banner" srcset="" />
+        <img class="p-0" src="/assets/webp/bsh_banner.webp" alt="BSH Banner" srcset="" />
       </div>
     </div>
 
@@ -47,7 +38,8 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl bg-light container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">BSH DBIT</span>
+      <a class="navbar-brand mb-0 h1 ms-3" href="/index.html">BSH DBIT</a>
+      
         <button
           class="navbar-toggler me-2"
           type="button"
@@ -143,7 +135,7 @@ nav.innerHTML = `<div class="container-fluid">
                   EXAMINATION
                 </a>
                 <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/examination/notice.html">Notice</a></li>
+                <li><a class="dropdown-item" href="https://www.dbit.in/exam-notice.html">Notice</a></li>
                 <li><a class="dropdown-item" href="/examination/exam-calendar.html">Exam Timetable</a>
                 <li><a class="dropdown-item" href="/examination/toppers.html">Toppers</a>
                 </li>
