@@ -55,3 +55,14 @@
     border-color: white !important;
 }
 
+.profile-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .profile-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
