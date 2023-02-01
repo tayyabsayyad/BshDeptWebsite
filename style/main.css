@@ -66,3 +66,9 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
+
+  tr {
+    border-top: 1.5px solid rgb(7, 0, 0);
+    border-bottom: 1.5px solid rgb(3, 0, 0);
+  }
+  
