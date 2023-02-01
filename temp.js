@@ -158,6 +158,17 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
+              <li class="nav-item text-center">
+                <a
+                  class="nav-link"
+                  href="https://placement.dbit.in/"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  PLACEMENTS
+                </a>
+              </li>
+              
                 </ul>
               </li>
             </ul>
