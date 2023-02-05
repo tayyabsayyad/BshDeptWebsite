@@ -152,6 +152,7 @@ nav.innerHTML = `<div class="container-fluid">
                   CO-CURRICULAR ACTIVITIES
                 </a>
                 <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/cocurricular/newsletters.html">Newsletters</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/workshop.html">Workshops</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/generalevents.html">General Events</a>
                 <li><a class="dropdown-item" href="/cocurricular/technicalevents.html">Technical Events</a></li>
