@@ -118,9 +118,7 @@ nav.innerHTML = `<div class="container-fluid">
                   STUDENTS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="/students/acheivements.html">Student Acheivements</a>
-                  </li>
+                  
                   <li><a class="dropdown-item" href="/students/scholarships.html">Scholarships</a></li>
                 </ul>
               </li>
