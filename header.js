@@ -88,7 +88,7 @@ footer.innerHTML =
 <!-- Copyright -->
 <div class="text-center p-4" style="color:white" >
  © 2023 Copyright :
- <a class="" style="text-decoration: none; color: white;"> <a href="/students/contributors.html" style="text-decoration:none; color: white;">Desgined and Maintained by DBIT Website Maintainance Team</a></a>
+ <a class="" style="text-decoration: none; color: white;"> <a href="/webdevteam/contributors.html" style="text-decoration:none; color: white;">Desgined and Maintained by DBIT Website Maintainance Team</a></a>
 </div>
 <!-- Copyright -->
 </footer>
