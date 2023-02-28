@@ -29,6 +29,12 @@
   z-index: 0;
 }
 
+.carouselExampleIndicators {
+  width: 1280rem;
+  height: 720rem;
+}
+
+
 @-webkit-keyframes my-animation {
   from {
     -webkit-transform: translateY(100%);
