@@ -34,6 +34,18 @@
   height: 720rem;
 }
 
+.email_links,
+.links {
+  color: #333;
+  text-decoration: none;
+
+}
+
+.email_links:hover,
+.links:hover {
+  color: #3c0bcf;
+}
+
 
 @-webkit-keyframes my-animation {
   from {
