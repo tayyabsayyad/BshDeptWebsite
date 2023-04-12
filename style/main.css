@@ -168,6 +168,8 @@ tr {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
 .loader_bg{
   position: fixed;
   z-index: 999999;

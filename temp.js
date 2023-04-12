@@ -7,23 +7,23 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
+                <a  target="_blank" class="nav-link top-nav-text text-decoration-none" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" href="http://parent.dbit.in/"
+                <a  target="_blank" class="nav-link top-nav-text text-decoration-none" href="http://parent.dbit.in/"
                   >Parent Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" href="https://alumni.dbit.in/">Alumni</a>
+                <a target="_blank" class="nav-link top-nav-text text-decoration-none" href="https://alumni.dbit.in/">Alumni</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" href="https://elearn.dbit.in/">E-Learn</a>
+                <a target="_blank" class="nav-link top-nav-text text-decoration-none" href="https://elearn.dbit.in/">E-Learn</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" href="https://workshop.opensourcetutorials.in/?redirect=0">Aspire</a>
+                <a target="_blank" class="nav-link top-nav-text text-decoration-none" href="https://workshop.opensourcetutorials.in/?redirect=0">Aspire</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link top-nav-text text-decoration-none" href="http://dbitlrc.dbit.in/">Library</a>
+                <a target="_blank" class="nav-link top-nav-text text-decoration-none" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
             </ul>
           </div>
